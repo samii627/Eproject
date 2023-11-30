@@ -1,0 +1,1995 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Playfair+Display&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+/* for all css */
+*{
+    font-family: Arial,sans-serif;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.body{
+    background-color:#2c6884;
+    ;
+}
+/* * */
+
+/* marquee css start */
+.tt{
+    background-color: #bda068;
+    color: #446373;
+    border-radius: 10px;
+    padding: 4px;
+    font-weight: bolder;
+}
+/* marquee  css end */
+
+/* nav css start */
+.nav2 a{
+    font-weight: bolder;
+   
+    font-size: 18px;
+}
+.ty:hover{
+    border-radius: 10px;
+    background-color: #bda068;
+    font-size: 20px;
+}
+
+.logt{
+    font-weight: 1000;
+    font-family: 'Pacifico', cursive;
+    /* font-family: 'Bebas Neue', sans-serif; */
+    font-size: 24px;
+    color: #000000;
+
+}
+.logo1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 200;
+    padding-left: 20px;
+    color: #cfcfcf;
+    
+}
+   
+/* nav css end */
+
+/* all heading css */
+
+.heading{ 
+    margin-top: 80px;
+    margin-bottom: -30px;
+    text-align: center;
+    padding-top: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+.heading span{
+    background:#bda068;
+    color: #073044;
+    padding: .2rem 2rem;
+    display: inline-block;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+/* heading css end */
+
+
+
+/* men card css start */
+
+
+.infor{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+ 
+ .con{
+ margin-bottom: -70px;
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 100px 50px;
+ padding: 80px 40px;
+ }
+ .con .card1{
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: flex-start;
+ width: 350px;
+ height: 300px;
+ background:	#073044;
+ outline: 2px solid #073044;
+ border-radius: 20px;
+ box-shadow: 0 35px 80px rgb(0,0,0,0.15);
+ transition: 2s all ease;
+ 
+ }
+
+
+ 
+ .con .card1:hover{
+ 
+ 
+     height: 340px;
+ }
+ 
+ .con .card1 .imgBx{
+ 
+     position: absolute;
+     top: 20px;
+     width: 300px;
+     height: 220px;
+ background: #333;
+ border-radius: 12px;
+ overflow: hidden;
+ transform: .5s;
+ transition: 2s all ease;
+ 
+ }
+
+
+ @media(max-width:550px){
+    .con .card1 .imgBx{
+        width: 300px;
+    }
+  }
+  
+  
+  
+  @media(max-width:430px){
+    .con .card1 .imgBx{
+        width: 240px;
+    }
+    }
+  
+    @media(max-width:380px){
+        .con .card1 .imgBx{
+            width: 200px;
+        }
+        }
+
+        @media(max-width:320px){
+            .con .card1 .imgBx{
+                width: 160px;
+            }
+            }
+
+
+
+ .con .card1:hover .imgBx{
+ 
+     top: -100px;
+     scale: 0.75;
+     box-shadow: 0 15px 45px rgb(0,0,0,0.2);
+ }
+ 
+ .con .card1 .imgBx img{
+ 
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+
+ 
+ }
+
+ @media(max-width:430px){
+    .con .card1 .imgBx img{
+ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+        }
+    }
+  
+    @media(max-width:380px){
+        .con .card1 .imgBx img{
+ 
+           
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+            }
+        }
+
+        @media(max-width:320px){
+            .con .card1 .imgBx img{
+ 
+               
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                
+                }
+            }
+ 
+ .con .card1 .content1{
+ position: absolute;
+ top: 252px;
+ width: 100%;
+ padding: 0 30px;
+ height: 35px;
+ overflow: hidden;
+ text-align: center;
+ transform: 0.5s;
+ transition: 2s all ease;
+ 
+ 
+ }
+ .con .card1 p{
+     color: rgba(245, 242, 242, 0.907);
+ }
+ 
+ .con .card1:hover .content1{
+     top: 130px;
+     height: 250px;
+     color: black;
+
+ 
+ }
+ .con .card1 .content1 h2{
+     font-size: 24px;
+     font-weight: bolder;
+     color: #fcfdff;
+ }
+ .con .card1:hover .content1 p{
+    font-size: 16px;
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+ 
+ }
+
+ @media(max-width:430px){
+    .con .card1:hover .content1 p{
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+     font-weight: bold;
+     
+     }
+    }
+ @media(max-width:380px){
+    .con .card1:hover .content1 p{
+        font-size: 13px;
+        color: rgb(255, 253, 253);
+     
+     }
+    }
+ 
+    @media(max-width:330px){
+        .con .card1:hover .content1 p{
+            font-size: 11px;
+            color: rgb(255, 255, 255);
+         font-weight: bold;
+         
+         }
+        }
+     
+ .con .card1 .content1 button{
+ position: relative;
+ top: 6px;
+ display: inline-block;
+ /* padding: 12px 25px; */
+ padding: .4rem 1rem;
+ background: var(--clr);
+
+ font-weight: 200;
+ font-size: 1.2rem;
+ /* outline: 2px solid #ffffff; */
+ /* border-radius: .5rem; */
+ text-decoration: none;
+ border-radius: 8px;
+ color: #11192e;
+ cursor: pointer;
+ background: none;
+ transition: .5s;
+ 
+ }
+ 
+
+ @media(max-width:330px){
+    .con .card1 .content1 button{
+       
+        padding: .6rem 2rem;
+       
+        font-weight: 500;
+        font-size: 1.2rem;
+       
+        }
+    }
+
+ .con .card1 .content1 button:hover{
+    background:#bda065;
+    color: #fff;
+    }
+ 
+/* men card css end */
+
+
+/* womens card css start */
+
+ 
+.con2{
+ 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 80px 40px;
+    }
+    .con2 .card1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background: #073044;
+    outline: 2px solid #073044;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgb(0,0,0,0.15);
+    transition: 2s all ease;
+    
+    }
+   
+   
+    
+    .con2 .card1:hover{
+    
+    
+        height: 340px;
+    }
+    
+    .con2 .card1 .imgBx{
+    
+        position: absolute;
+        top: 20px;
+        width: 300px;
+        height: 220px;
+    background: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transform: .5s;
+    transition: 2s all ease;
+    
+    }
+   
+   
+    @media(max-width:550px){
+       .con2 .card1 .imgBx{
+           width: 300px;
+       }
+     }
+     
+     
+     
+     @media(max-width:430px){
+       .con2 .card1 .imgBx{
+           width: 240px;
+       }
+       }
+     
+       @media(max-width:380px){
+           .con2 .card1 .imgBx{
+               width: 200px;
+           }
+           }
+   
+           @media(max-width:320px){
+               .con2 .card1 .imgBx{
+                   width: 160px;
+               }
+               }
+   
+   
+   
+    .con2 .card1:hover .imgBx{
+    
+        top: -100px;
+        scale: 0.75;
+        box-shadow: 0 15px 45px rgb(0,0,0,0.2);
+    }
+    
+    .con2 .card1 .imgBx img{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    
+    }
+   
+    @media(max-width:430px){
+       .con2 .card1 .imgBx img{
+    
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           
+           }
+       }
+     
+       @media(max-width:380px){
+           .con2 .card1 .imgBx img{
+    
+              
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               
+               }
+           }
+   
+           @media(max-width:320px){
+               .con2 .card1 .imgBx img{
+    
+                  
+                   width: 100%;
+                   height: 100%;
+                   object-fit: cover;
+                   
+                   }
+               }
+    
+    .con2 .card1 .content1{
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    padding: 0 30px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transform: 0.5s;
+    transition: 2s all ease;
+    
+    
+    }
+    .con2 .card1 p{
+        color: rgb(245, 244, 244);
+    }
+    
+    .con2 .card1:hover .content1{
+        top: 130px;
+        height: 250px;
+        color: rgb(245, 244, 244);
+   
+    
+    }
+    .con2 .card1 .content1 h2{
+        font-size: 24px;
+        font-weight: bolder;
+        color: rgb(245, 244, 244);
+    }
+    .con2 .card1:hover .content1 p{
+       font-size: 16px;
+       color: rgb(245, 244, 244);
+       font-weight: bold;
+    
+    }
+   
+    @media(max-width:430px){
+       .con2 .card1:hover .content1 p{
+           font-size: 14px;
+           color: rgb(245, 244, 244);
+        font-weight: bold;
+        
+        }
+       }
+    @media(max-width:380px){
+       .con2 .card1:hover .content1 p{
+           font-size: 13px;
+           color: rgb(245, 244, 244);
+        font-weight: bold;
+            
+        
+        }
+       }
+    
+       @media(max-width:330px){
+           .con2 .card1:hover .content1 p{
+               font-size: 11px;
+               color: black;
+        font-weight: bold;
+               
+            
+            }
+           }
+        
+    .con2 .card1 .content1 button{
+    position: relative;
+    top: 6px;
+    display: inline-block;
+    /* padding: 12px 25px; */
+    padding: .4rem 1rem;
+    background: var(--clr);
+   
+    font-weight: 200;
+    font-size: 1.2rem;
+    /* border-radius: .5rem; */
+    text-decoration: none;
+    border-radius: 6px;
+    color: #11192e;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+    
+    }
+   
+    @media(max-width:330px){
+       .con2 .card1 .content1 button{
+          
+           padding: .6rem 2rem;
+          
+           font-weight: 500;
+           font-size: 1.2rem;
+          
+           }
+       }
+   
+    .con2 .card1 .content1 button:hover{
+       background:#bda065;
+       color: #fff;
+       }
+    
+   /* womens card css end */
+   
+   
+
+/* j.sec cards  */
+ 
+.con3{
+ 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 80px 40px;
+    margin-bottom: -50px;
+    }
+    .con3 .card1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background: #073044;
+    outline: 2px solid #20283E;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgb(0,0,0,0.15);
+    transition: 2s all ease;
+    
+    }
+   
+   
+    
+    .con3 .card1:hover{
+    
+    
+        height: 340px;
+    }
+    
+    .con3 .card1 .imgBx{
+    
+        position: absolute;
+        top: 20px;
+        width: 300px;
+        height: 220px;
+    background: #364046;
+    border-radius: 12px;
+    overflow: hidden;
+    transform: .5s;
+    transition: 2s all ease;
+    
+    }
+   
+   
+    @media(max-width:550px){
+       .con3 .card1 .imgBx{
+           width: 300px;
+       }
+     }
+     
+     
+     
+     @media(max-width:430px){
+       .con3 .card1 .imgBx{
+           width: 240px;
+       }
+       }
+     
+       @media(max-width:380px){
+           .con3 .card1 .imgBx{
+               width: 200px;
+           }
+           }
+   
+           @media(max-width:320px){
+               .con3 .card1 .imgBx{
+                   width: 160px;
+               }
+               }
+   
+   
+   
+    .con3 .card1:hover .imgBx{
+    
+        top: -100px;
+        scale: 0.75;
+        box-shadow: 0 15px 45px rgb(0,0,0,0.2);
+    }
+    
+    .con3 .card1 .imgBx img{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    
+    }
+   
+    @media(max-width:430px){
+       .con3 .card1 .imgBx img{
+    
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           
+           }
+       }
+     
+       @media(max-width:380px){
+           .con3 .card1 .imgBx img{
+    
+              
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               
+               }
+           }
+   
+           @media(max-width:320px){
+               .con3 .card1 .imgBx img{
+    
+                  
+                   width: 100%;
+                   height: 100%;
+                   object-fit: cover;
+                   
+                   }
+               }
+    
+    .con3 .card1 .content1{
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    padding: 0 30px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transform: 0.5s;
+    transition: 2s all ease;
+    
+    
+    }
+    .con3 .card1 p{
+        color: #fff;
+    }
+    
+    .con3 .card1:hover .content1{
+        top: 130px;
+        height: 250px;
+        color: rgb(255, 255, 255);
+   
+    
+    }
+    .con3 .card1 .content1 h2{
+        font-size: 24px;
+        font-weight: bolder;
+        color: rgb(255, 255, 255);
+    }
+    .con3 .card1:hover .content1 p{
+       font-size: 16px;
+       color: rgb(255, 255, 255);
+       font-weight: bold;
+    
+    }
+   
+    @media(max-width:430px){
+       .con3 .card1:hover .content1 p{
+           font-size: 14px;
+           color: rgb(255, 255, 255);
+           font-weight: bold;
+        
+        }
+       }
+    @media(max-width:380px){
+       .con3 .card1:hover .content1 p{
+           font-size: 13px;
+           color: rgb(255, 255, 255);
+           font-weight: bold;
+            
+        
+        }
+       }
+    
+       @media(max-width:330px){
+           .con3 .card1:hover .content1 p{
+               font-size: 11px;
+               color: rgb(255, 255, 255);
+               font-weight: bold;
+               
+            
+            }
+           }
+        
+    .con3 .card1 .content1 button{
+    position: relative;
+    top: 6px;
+    display: inline-block;
+    /* padding: 12px 25px; */
+    padding: .4rem 1rem;
+    background: var(--clr);
+   
+    font-weight: 200;
+    font-size: 1.2rem;
+    /* border-radius: .5rem; */
+    text-decoration: none;
+    border-radius: 8px;
+    color: #bda068;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+    
+    }
+   
+    @media(max-width:330px){
+       .con3 .card1 .content1 a{
+          
+           padding: .6rem 2rem;
+          
+           font-weight: 500;
+           font-size: 1.2rem;
+          
+           }
+       }
+   
+    .con3 .card1 .content1 button:hover{
+       background:#bda068;
+       color: #fff;
+       }
+    
+
+
+/* j. sec end */
+
+/* levis sec start */
+.con4{
+ 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 80px 40px;
+    margin-bottom: -50px;
+    }
+    .con4 .card1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background: #073044;
+    /* outline: 2px solid #20283E; */
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgb(0,0,0,0.15);
+    transition: 2s all ease;
+    
+    }
+   
+   
+    
+    .con4 .card1:hover{
+    
+    
+        height: 340px;
+    }
+    
+    .con4 .card1 .imgBx{
+    
+        position: absolute;
+        top: 20px;
+        width: 300px;
+        height: 220px;
+    background: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transform: .5s;
+    transition: 2s all ease;
+    
+    }
+   
+   
+    @media(max-width:550px){
+       .con4 .card1 .imgBx{
+           width: 300px;
+       }
+     }
+     
+     
+     
+     @media(max-width:430px){
+       .con4 .card1 .imgBx{
+           width: 240px;
+       }
+       }
+     
+       @media(max-width:380px){
+           .con4 .card1 .imgBx{
+               width: 200px;
+           }
+           }
+   
+           @media(max-width:320px){
+               .con4 .card1 .imgBx{
+                   width: 160px;
+               }
+               }
+   
+   
+   
+    .con4 .card1:hover .imgBx{
+    
+        top: -100px;
+        scale: 0.75;
+        box-shadow: 0 15px 45px rgb(0,0,0,0.2);
+    }
+    
+    .con4 .card1 .imgBx img{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    
+    }
+   
+    @media(max-width:430px){
+       .con4 .card1 .imgBx img{
+    
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           
+           }
+       }
+     
+       @media(max-width:380px){
+           .con4 .card1 .imgBx img{
+    
+              
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               
+               }
+           }
+   
+           @media(max-width:320px){
+               .con4 .card1 .imgBx img{
+    
+                  
+                   width: 100%;
+                   height: 100%;
+                   object-fit: cover;
+                   
+                   }
+               }
+    
+    .con4 .card1 .content1{
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    padding: 0 30px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transform: 0.5s;
+    transition: 2s all ease;
+    
+    
+    }
+    .con4 .card1 p{
+        color: #fff;
+    }
+    
+    .con4 .card1:hover .content1{
+        top: 130px;
+        height: 250px;
+        color: #fff;
+   
+    
+    }
+    .con4 .card1 .content1 h2{
+        font-size: 24px;
+        font-weight: bolder;
+        color: #fff;
+    }
+    .con4 .card1:hover .content1 p{
+       font-size: 16px;
+        color: #fff;
+        font-weight: bold;
+    
+    }
+   
+    @media(max-width:430px){
+       .con4 .card1:hover .content1 p{
+           font-size: 14px;
+           color: #fff;
+        font-weight: bold;
+        
+        }
+       }
+    @media(max-width:380px){
+       .con4 .card1:hover .content1 p{
+           font-size: 13px;
+           color: #fff;
+        font-weight: bold;
+            
+        
+        }
+       }
+    
+       @media(max-width:330px){
+           .con4 .card1:hover .content1 p{
+               font-size: 11px;
+               color: #fff;
+        font-weight: bold;
+               
+            
+            }
+           }
+        
+    .con4 .card1 .content1 button{
+    position: relative;
+    top: 6px;
+    display: inline-block;
+    /* padding: 12px 25px; */
+    padding: .4rem 1rem;
+    background: var(--clr);
+   
+    font-weight: 200;
+    font-size: 1.2rem;
+    /* border-radius: .5rem; */
+    text-decoration: none;
+    border-radius: 8px;
+    color: #11192e;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+    
+    }
+   
+    @media(max-width:330px){
+       .con4 .card1 .content1 button{
+          
+           padding: .6rem 2rem;
+          
+           font-weight: 500;
+           font-size: 1.2rem;
+          
+           }
+       }
+   
+    .con4 .card1 .content1 button:hover{
+       background:#bda068;
+       color: #fff;
+       }
+    
+
+
+
+
+/* levis sec end */
+
+
+
+/* Outfitter sec start */
+.con5{
+ 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 80px 40px;
+    margin-bottom: -50px;
+    }
+    .con5 .card1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background: #073044;
+    outline: 2px  #073044;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgb(0,0,0,0.15);
+    transition: 2s all ease;
+    
+    }
+   
+   
+    
+    .con5 .card1:hover{
+    
+    
+        height: 340px;
+    }
+    
+    .con5 .card1 .imgBx{
+    
+        position: absolute;
+        top: 20px;
+        width: 300px;
+        height: 220px;
+    background: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transform: .5s;
+    transition: 2s all ease;
+    
+    }
+   
+   
+    @media(max-width:550px){
+       .con5 .card1 .imgBx{
+           width: 300px;
+       }
+     }
+     
+     
+     
+     @media(max-width:430px){
+       .con5 .card1 .imgBx{
+           width: 240px;
+       }
+       }
+     
+       @media(max-width:380px){
+           .con5 .card1 .imgBx{
+               width: 200px;
+           }
+           }
+   
+           @media(max-width:320px){
+               .con5 .card1 .imgBx{
+                   width: 160px;
+               }
+               }
+   
+   
+   
+    .con5 .card1:hover .imgBx{
+    
+        top: -100px;
+        scale: 0.75;
+        box-shadow: 0 15px 45px rgb(0,0,0,0.2);
+    }
+    
+    .con5 .card1 .imgBx img{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    
+    }
+   
+    @media(max-width:430px){
+       .con5 .card1 .imgBx img{
+    
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           
+           }
+       }
+     
+       @media(max-width:380px){
+           .con5 .card1 .imgBx img{
+    
+              
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               
+               }
+           }
+   
+           @media(max-width:320px){
+               .con5 .card1 .imgBx img{
+    
+                  
+                   width: 100%;
+                   height: 100%;
+                   object-fit: cover;
+                   
+                   }
+               }
+    
+    .con5 .card1 .content1{
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    padding: 0 30px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transform: 0.5s;
+    transition: 2s all ease;
+    
+    
+    }
+    .con5 .card1 p{
+        color: #fff;
+    }
+    
+    .con5 .card1:hover .content1{
+        top: 130px;
+        height: 250px;
+        color: rgb(255, 255, 255);
+   
+    
+    }
+    .con5 .card1 .content1 h2{
+        font-size: 24px;
+        font-weight: bolder;
+        color: #ffffff;
+    }
+    .con5 .card1:hover .content1 p{
+       font-size: 16px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    
+    }
+   
+    @media(max-width:430px){
+       .con5 .card1:hover .content1 p{
+           font-size: 14px;
+           color: rgb(255, 255, 255);
+        font-weight: bold;
+        
+        }
+       }
+    @media(max-width:380px){
+       .con5 .card1:hover .content1 p{
+           font-size: 13px;
+           color: rgb(255, 255, 255);
+        font-weight: bold;
+            
+        
+        }
+       }
+    
+       @media(max-width:330px){
+           .con5 .card1:hover .content1 p{
+               font-size: 11px;
+               color: rgb(255, 255, 255);
+        font-weight: bold;
+               
+            
+            }
+           }
+        
+    .con5 .card1 .content1 button{
+    position: relative;
+    top: 6px;
+    display: inline-block;
+    /* padding: 12px 25px; */
+    padding: .4rem 1rem;
+    background: var(--clr);
+   
+    font-weight: 200;
+    font-size: 1.2rem;
+    /* border-radius: .5rem; */
+    text-decoration: none;
+    border-radius: 8px;
+    color: #11192e;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+    
+    }
+   
+    @media(max-width:330px){
+       .con5 .card1 .content1 button{
+          
+           padding: .6rem 2rem;
+          
+           font-weight: 500;
+           font-size: 1.2rem;
+          
+           }
+       }
+   
+    .con5 .card1 .content1 button:hover{
+       background:#bda068;
+       color: #fff;
+       }
+    
+
+
+
+
+/* outfitter sec end */
+
+
+/* Gul Ahmed sec start */
+.con6{
+ 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 80px 40px;
+    margin-bottom: -50px;
+    }
+    .con6 .card1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background: #073044;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgb(0,0,0,0.15);
+    transition: 2s all ease;
+    
+    }
+   
+   
+    
+    .con6 .card1:hover{
+    
+    
+        height: 340px;
+    }
+    
+    .con6 .card1 .imgBx{
+    
+        position: absolute;
+        top: 20px;
+        width: 300px;
+        height: 220px;
+    background: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transform: .5s;
+    transition: 2s all ease;
+    
+    }
+   
+   
+    @media(max-width:550px){
+       .con6 .card1 .imgBx{
+           width: 300px;
+       }
+     }
+     
+     
+     
+     @media(max-width:430px){
+       .con6 .card1 .imgBx{
+           width: 240px;
+       }
+       }
+     
+       @media(max-width:380px){
+           .con6 .card1 .imgBx{
+               width: 200px;
+           }
+           }
+   
+           @media(max-width:320px){
+               .con6 .card1 .imgBx{
+                   width: 160px;
+               }
+               }
+   
+   
+   
+    .con6 .card1:hover .imgBx{
+    
+        top: -100px;
+        scale: 0.75;
+        box-shadow: 0 15px 45px rgb(0,0,0,0.2);
+    }
+    
+    .con6 .card1 .imgBx img{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    
+    }
+   
+    @media(max-width:430px){
+       .con6 .card1 .imgBx img{
+    
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           
+           }
+       }
+     
+       @media(max-width:380px){
+           .con6 .card1 .imgBx img{
+    
+              
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               
+               }
+           }
+   
+           @media(max-width:320px){
+               .con6 .card1 .imgBx img{
+    
+                  
+                   width: 100%;
+                   height: 100%;
+                   object-fit: cover;
+                   
+                   }
+               }
+    
+    .con6 .card1 .content1{
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    padding: 0 30px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transform: 0.5s;
+    transition: 2s all ease;
+    
+    
+    }
+    .con6 .card1 p{
+        color: #fff;
+    }
+    
+    .con6 .card1:hover .content1{
+        top: 130px;
+        height: 250px;
+        color: black;
+   
+    
+    }
+    .con6 .card1 .content1 h2{
+        font-size: 24px;
+        font-weight: bolder;
+        color: #ffffff;
+    }
+    .con6 .card1:hover .content1 p{
+       font-size: 16px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    
+    }
+   
+    @media(max-width:430px){
+       .con6 .card1:hover .content1 p{
+           font-size: 14px;
+           color: rgb(255, 255, 255);
+        font-weight: bold;
+        
+        }
+       }
+    @media(max-width:380px){
+       .con6 .card1:hover .content1 p{
+           font-size: 13px;
+           color: rgb(255, 255, 255);
+        font-weight: bold;
+            
+        
+        }
+       }
+    
+       @media(max-width:330px){
+           .con6 .card1:hover .content1 p{
+               font-size: 11px;
+               color: rgb(255, 255, 255);
+        font-weight: bold;
+               
+            
+            }
+           }
+        
+    .con6 .card1 .content1 button{
+    position: relative;
+    top: 6px;
+    display: inline-block;
+    /* padding: 12px 25px; */
+    padding: .4rem 1rem;
+    background: var(--clr);
+   
+    font-weight: 200;
+    font-size: 1.2rem;
+    /* border-radius: .5rem; */
+    text-decoration: none;
+    border-radius: 8px;
+    color: #11192e;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+    
+    }
+   
+    @media(max-width:330px){
+       .con6 .card1 .content1 button{
+          
+           padding: .6rem 2rem;
+          
+           font-weight: 500;
+           font-size: 1.2rem;
+          
+           }
+       }
+   
+    .con6 .card1 .content1 button:hover{
+       background:#bda068;
+       color: #fff;
+       }
+    
+
+
+
+
+/* Gul ahmed sec end */
+
+
+/* heading css media query start*/
+
+
+
+@media(max-width:450px){
+   
+    .heading{
+        font-size: 2.5rem;
+    }
+   
+}
+
+
+/* heading css media query end */
+
+
+/* follow css start */
+
+.j{ margin-top: -30px;
+margin-bottom: 15px;}
+
+.b{border: 2px solid black;}
+
+.further1{
+  text-align: center;
+  justify-content: center;
+  
+}
+.further1 h1{
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.fur{
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.furho:hover {
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+
+
+.fin{
+   
+    padding-bottom: 2px;
+  }
+  .bg1{
+   
+    background: url(../images/fb.jfif);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 100%;
+  height: 400px;
+  text-align: center;
+    justify-content: center;
+  }
+  
+  .bg2{
+    background-image: url(../images/yt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+  
+  }
+  .bg3{
+    background-image: url(../images/twi.jfif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .bg4{
+    background-image: url(../images/inst.jfif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+   
+  
+  }
+  .bg1 i{
+   color: white;
+    margin-top: 190px;
+    font-size: 55px;
+  }
+  .iconhov1 :hover{
+    font-size: 65px;
+    color: blue;
+  }
+  .bg2 i{
+    color: white;
+    margin-top: 190px;
+    font-size: 55px;
+  }
+  .iconhov2 :hover{
+    font-size: 65px;
+    color: red;
+  }
+  .bg3 i{
+    color: white;
+    margin-top: 190px;
+    font-size: 55px;
+  }
+  .iconhov3 :hover{
+    font-size: 65px;
+    color: blue;
+  }
+  .bg4 i{
+    color: white;
+    margin-top: 190px;
+    font-size: 55px;
+  }
+  .iconhov4 :hover{
+    font-size: 65px;
+    color: red;
+  }
+  a{
+    text-decoration: none;
+  }
+  .fin h1{
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .inst{
+    color: red;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .facb{
+    color: blue;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .twit{
+    color: blue;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .yout{
+    color: red;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .calle{
+    width: 100%;
+    height: 400px;
+    background-color: #33333352;
+  }
+
+
+  @media(max-width:500px){
+   
+    .fin h1{
+        font-size: 24px;
+    }
+   .facb{
+    font-size: 24px;
+   }
+   .yout{
+    font-size: 24px;
+   }
+   .inst{
+    font-size: 24px;
+   }
+   .twit{
+    font-size: 24px;
+   }
+}
+@media(max-width:380px){
+   
+    .fin h1{
+        font-size: 20px;
+    }
+   .facb{
+    font-size: 20px;
+   }
+   .yout{
+    font-size: 20px;
+   }
+   .inst{
+    font-size: 20px;
+   }
+   .twit{
+    font-size: 20px;
+   }
+}
+@media(max-width:285px){
+   
+    .fin h1{
+        font-size: 17px;
+    }
+   .facb{
+    font-size: 17px;
+   }
+   .yout{
+    font-size: 17px;
+   }
+   .inst{
+    font-size: 17px;
+   }
+   .twit{
+    font-size: 17px;
+   }
+}
+
+/* follow css end */
+
+
+@media(max-width:992px){
+    .logo1{
+        font-size: 13px;
+        color:#ffffffd9 ;
+    }
+    .logt{
+        font-size: 15px;
+    }
+    }
+    
+@media(max-width:770px){
+    .logo1{
+        font-size: 16px;
+        color:#ffffffd9 ;
+
+    }
+    .logt{
+        font-size: 24px;
+    }
+    }
+    @media(max-width:355px){
+        .logo1{
+            font-size: 13px;
+            font-weight: 200;
+            color:#ffffffd9 ;
+
+        }
+        .logt{
+            font-size: 15px;
+            font-weight: 1000;
+        }
+        }
+/* j. page css start */
+        .jcom{
+          margin-top: 10px;
+          
+            background: url(../images/j.page/j.logo.png);
+            background-size: auto;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-bottom: 50px;
+            
+        }
+        .jlogo{ 
+           justify-content: start;
+            border-radius: 4px;
+            border: 2px solid #11192e;
+          background-color: rgba(255, 255, 255, 0.47);
+           backdrop-filter: blur(2px);
+           
+
+            
+        }
+        .hhh{
+            border-right: 3px solid #11192e;
+          
+        }
+        .bn{
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            justify-content: center;
+        }
+        .jcom p{
+            font-weight: bold;
+        }
+
+        .st{
+            margin-top: 10px;
+        }
+.bi{
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+ background-image: url(../images/banner.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+ height: 400px;
+
+
+
+}
+.btt{
+
+    padding-top: 200px;
+    
+}
+.btt h1{
+    backdrop-filter: blur(8px);
+    background-color: #cfcfcf6c;
+    font-family: 'Dancing Script', cursive;
+}
+        /* j. page css end */
+
+        /* levis page css start */
+        .jcom1{
+            margin-top: 10px;
+         
+              background-image: url(../images/levis/logo.png);
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              margin-bottom: 50px;
+              
+          }
+          .jcom1 p{
+            font-weight: bold;
+          }
+          .bi1{
+            border-radius: 10px;
+            margin-top: 10px;
+            text-align: center;
+            justify-content: center;
+         background-image: url(../images/levis/banner.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         background-attachment: fixed;
+         height: 400px;
+        
+        
+        
+        }
+       /* levis page css end */
+
+       /* outfitter page css start */
+       .jcom2{
+        margin-top: 10px;
+     
+          background-image: url(../images/outfitter/logo.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          margin-bottom: 50px;
+          
+      }
+      .jcom2 p{
+        font-weight: bold;
+      }
+      .bi2{
+        border-radius: 10px;
+        margin-top: 10px;
+        text-align: center;
+        justify-content: center;
+     background-image: url(../images/outfitter/banner.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     height: 400px;
+    
+    
+    
+    }
+   /* outfitter page css end */
+   
+       /* outfitter page css start */
+       .jcom3{
+        margin-top: 10px;
+     
+          background-image: url(../images/gul/logo.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          margin-bottom: 50px;
+          
+      }
+      .jcom3 p{
+        font-weight: bold;
+      }
+      .bi3{
+        border-radius: 10px;
+        margin-top: 10px;
+        text-align: center;
+        justify-content: center;
+     background-image: url(../images/gul/banner.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     height: 400px;
+    
+    
+    
+    }
+   /* outfitter page css end */
+
+   /* conatc us css start */
+
+   .bi4{
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+ background-image: url(../images/gul/banner.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+ height: 400px;
+
+
+
+}
+
+   .btns{
+    padding: .4rem 1rem;
+    background: var(--clr);
+   
+    font-weight: 200;
+    font-size: 1.2rem;
+    outline: 2px solid #20283E;
+    /* border-radius: .5rem; */
+    text-decoration: none;
+    border-radius: 8px;
+    color: #11192e;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+ }
+ .btns:hover{
+    background:#20283E;
+    color: #fff;
+ }
+
+ .bte{
+    text-align: center; 
+    justify-content: center;
+    margin-bottom: 40px;
+ }
+ /* contact us css end */
+
+ /* purpose sec start */
+.j{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.c h1{
+    text-align: center ;
+}
+
+.cb{ text-align: center;}
+
+.cardt{
+    font-weight: bold;
+   background-color: white;
+   border-radius: 10px;
+}
+
+    
+/* purpose sec close */
+
+/* abous us css sec end */
+
+/* gallery sec css start */
+
+
+.gal{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
